@@ -41,6 +41,7 @@ export class AppComponent {
     if(oldData != null){
       const parseData = JSON.parse(oldData);
       this.empForm.controls['empId'].setValue(parseData.length +1);
+
     }
   }
 
